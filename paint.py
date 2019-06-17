@@ -20,7 +20,7 @@ def test_unbound_class_method():
 def test_other_method():
     # print(Point.class_method(Point))
     print(Point.class_method())
-    print(Point.static_method())
+    Point.static_method()
 
 
 def main():
