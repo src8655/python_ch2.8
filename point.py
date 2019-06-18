@@ -2,7 +2,10 @@
 
 
 class Point:
-    count_of_instance = 1000
+    count_of_instance = 1000            # 클래스 멤버
+    # self.count_of_instance 했을때
+    # 인스턴스 멤버 변수에 없으면
+    # 클래스 멤버에서 찾는다
 
     def setx(self, x):
         self.x = x
